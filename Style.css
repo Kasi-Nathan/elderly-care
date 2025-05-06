@@ -85,6 +85,12 @@ body, html{
     /* margin-bottom: -16px; */
     margin: 0px;
 }
+.ahead:hover{
+    color: rgb(148, 34, 34);
+}
+.topBar{
+    justify-content: flex-end;
+}
 
 .Hlist li{
     padding-left: 16%;
@@ -657,11 +663,15 @@ body, html{
 #NameAlert, #EmailAlert, #TelAlert, #msgAlert{
     color: red;
 }
+
 @media only screen and (max-width: 500px) {
     body {
         background-color: black;
         font-size: xx-small;
         /* padding: 1000px; */
+    }
+    .logo-img{
+        display: flex;
     }
     .A1{
         color: blue;
@@ -820,6 +830,14 @@ body, html{
 
     .hamburger {
         display: flex;
+    }
+    .hamburger {
+        position: absolute;
+        top: 10px;   /* adjust as needed */
+        right: 10px; /* pushes it to the right edge */
+      }
+    #hamid{
+        padding-left: 110px;
     }
 
     /* Checkbox hack for toggling menu */

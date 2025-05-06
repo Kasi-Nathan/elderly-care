@@ -11,18 +11,23 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div>
-        <p class="ahead"> fb, twitter</p>
+    <div style="display: flex; background-color: rgb(14, 12, 39);" class="topBar">
+        <p class="ahead"><i class="fa fa-facebook" aria-hidden="true"></i>
+        </p>
+        <p class="ahead"><i class="fa fa-twitter" aria-hidden="true"></i>
+        </p>
     </div>
     <nav class="container navbar">
-        <div class="logo"><img class="logoimg" style="width: 50%;" src="Img/logo.png" alt=""></div>
+        <!-- <div class="logo"><img class="logoimg" style="width: 50%;" src="Img/logo.png" alt=""></div> -->
+          <div class="logo-img"><img class="" style="width: 50%;" src="Img/logo.png" alt="">
     
             <!-- Hamburger -->
-        <label for="menu-toggle" class="hamburger">
+        <label for="menu-toggle" class="hamburger" id="hamid">
             <div></div>
             <div></div>
             <div></div>
             </label>
+        </div>
     
             <!-- Checkbox Hack -->
         <input type="checkbox" id="menu-toggle">
